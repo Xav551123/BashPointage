@@ -32,7 +32,7 @@ fi
 
 #4--------------pointage et recherche du mot
 
-curl  --progress-bar -b .cookie.txt https://www.formation-occ.com/index.php\?event_attendance=&status=0 > .checkname
+curl  --progress-bar -b .cookie.txt https://www.formation-occ.com/index.php\?event_attendance\=\&status\=0 > .checkname
 point=$(grep "pointage" .checkname | cut -d'>' -f2 | cut -d'<' -f1);
 #echo $point
 if [ -z "$point" ];then
