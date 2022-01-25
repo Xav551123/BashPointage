@@ -43,6 +43,6 @@ else
 fi 
 #grep "form_connexion form_required" ./.checkname2
 
------nettoyage des cookies
+#-----nettoyage des cookies
 rm -f .checkname
 rm -f .cookie.txt
