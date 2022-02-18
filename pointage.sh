@@ -5,7 +5,7 @@
 
 username="-------------------------------username---------------"   #mettre le mot de passe et le user entre les guillement
 password="------------------------------password-------------------"
-jour=$(date +%d/%m/%Y)
+jour=$(date '+%d/%m/%Y %H:%M:%S')
 
 #1-------ouverture du site pour recuperer le cookie de session.
 echo $jour': lancement de la requet http' >> log.txt
